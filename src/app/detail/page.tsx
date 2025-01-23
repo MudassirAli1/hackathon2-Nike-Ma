@@ -4,7 +4,7 @@ import Item from "/public/assets/items/Shoe.png"
 const Detail =()=> {
   return(
     
-    <div id="detail"className="relative w-full max-w-[1200px] h-auto mx-auto mt-12 px-4 sm:px-6 lg:px-8">
+    <div id="detail"className="relative w-full max-w-[1200px] h-auto mx-auto mt-12 px-4 sm:px-6 mb-14px lg:px-8">
     <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start w-full h-auto space-y-8 lg:space-y-0 lg:space-x-8">
       {/* Image Section */}
       <div className="w-full lg:w-[653px] h-auto lg:h-[653px] flex justify-center items-center">
@@ -38,7 +38,7 @@ const Detail =()=> {
   
         <div className="flex justify-center lg:justify-start">
           <button className="
-            flex   items-center justify-center font-sans font-bold bg-black  text-white rounded-[30px] py-3   px-6 w-full max-w-[300px]transition-transform transform hover:scale-105 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2  focus:ring-black group
+            flex   items-center justify-center font-sans font-bold bg-black  text-white rounded-[30px] py-3   px-6 w-full mb-2 max-w-[300px]transition-transform transform hover:scale-105 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2  focus:ring-black group
           ">
             <svg 
               width="30" 
